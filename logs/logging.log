@@ -1,2 +1,34 @@
-[2025-04-09 12:10:06,913:INFO:main:Welcome to our custom logging to datascience]
-[2025-04-09 12:10:17,832:INFO:main:Welcome to our custom logging to datascience]
+[2025-04-12 21:15:29,206:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
+[2025-04-12 21:15:29,207:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-12 21:15:29,207:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-12 21:15:29,216:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-12 21:15:29,216:INFO:common:Create dirctories at: artifacts]
+[2025-04-12 21:15:29,218:INFO:common:Create dirctories at: artifacts/data_ingestion]
+[2025-04-12 21:15:29,218:INFO:data_ingestion:File already exists]
+[2025-04-12 21:15:29,232:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
+
+x=======================x]
+[2025-04-15 13:35:52,874:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-15 13:35:52,929:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-15 13:35:52,955:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-15 13:35:52,972:INFO:common:Create dirctories at: artifacts]
+[2025-04-15 13:35:52,980:INFO:common:Create dirctories at: artifacts/data_validation]
+[2025-04-15 14:05:34,684:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
+[2025-04-15 14:05:34,693:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-15 14:05:34,693:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-15 14:05:34,705:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-15 14:05:34,707:INFO:common:Create dirctories at: artifacts]
+[2025-04-15 14:05:34,708:INFO:common:Create dirctories at: artifacts/data_ingestion]
+[2025-04-15 14:05:34,709:INFO:data_ingestion:File already exists]
+[2025-04-15 14:05:34,756:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
+
+x=======================x]
+[2025-04-15 14:05:34,756:INFO:main:>>>>>>> stageData validation Stage started <<<<<]
+[2025-04-15 14:05:34,756:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-15 14:05:34,765:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-15 14:05:34,770:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-15 14:05:34,772:INFO:common:Create dirctories at: artifacts]
+[2025-04-15 14:05:34,774:INFO:common:Create dirctories at: artifacts/data_validation]
+[2025-04-15 14:05:34,819:INFO:main:>>>>>>> stage Data validation Stage Completed <<<<<
+
+x=======================x]

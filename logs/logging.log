@@ -1,34 +1,59 @@
-[2025-04-12 21:15:29,206:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
-[2025-04-12 21:15:29,207:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2025-04-12 21:15:29,207:INFO:common:yaml file: params.yaml loaded successfully]
-[2025-04-12 21:15:29,216:INFO:common:yaml file: schema.yaml loaded successfully]
-[2025-04-12 21:15:29,216:INFO:common:Create dirctories at: artifacts]
-[2025-04-12 21:15:29,218:INFO:common:Create dirctories at: artifacts/data_ingestion]
-[2025-04-12 21:15:29,218:INFO:data_ingestion:File already exists]
-[2025-04-12 21:15:29,232:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
+[2025-04-16 09:32:39,413:INFO:utils:NumExpr defaulting to 8 threads.]
+[2025-04-16 09:32:43,510:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
+[2025-04-16 09:32:43,516:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-16 09:32:43,521:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-16 09:32:43,524:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-16 09:32:43,524:INFO:common:Create dirctories at: artifacts]
+[2025-04-16 09:32:43,524:INFO:common:Create dirctories at: artifacts/data_ingestion]
+[2025-04-16 09:32:43,524:INFO:data_ingestion:File already exists]
+[2025-04-16 09:32:43,539:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
 
 x=======================x]
-[2025-04-15 13:35:52,874:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2025-04-15 13:35:52,929:INFO:common:yaml file: params.yaml loaded successfully]
-[2025-04-15 13:35:52,955:INFO:common:yaml file: schema.yaml loaded successfully]
-[2025-04-15 13:35:52,972:INFO:common:Create dirctories at: artifacts]
-[2025-04-15 13:35:52,980:INFO:common:Create dirctories at: artifacts/data_validation]
-[2025-04-15 14:05:34,684:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
-[2025-04-15 14:05:34,693:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2025-04-15 14:05:34,693:INFO:common:yaml file: params.yaml loaded successfully]
-[2025-04-15 14:05:34,705:INFO:common:yaml file: schema.yaml loaded successfully]
-[2025-04-15 14:05:34,707:INFO:common:Create dirctories at: artifacts]
-[2025-04-15 14:05:34,708:INFO:common:Create dirctories at: artifacts/data_ingestion]
-[2025-04-15 14:05:34,709:INFO:data_ingestion:File already exists]
-[2025-04-15 14:05:34,756:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
+[2025-04-16 09:32:43,542:INFO:main:>>>>>>> stageData validation Stage started <<<<<]
+[2025-04-16 09:32:43,546:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-16 09:32:43,546:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-16 09:32:43,553:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-16 09:32:43,555:INFO:common:Create dirctories at: artifacts]
+[2025-04-16 09:32:43,555:INFO:common:Create dirctories at: artifacts/data_validation]
+[2025-04-16 09:32:43,616:INFO:main:>>>>>>> stage Data validation Stage Completed <<<<<
 
 x=======================x]
-[2025-04-15 14:05:34,756:INFO:main:>>>>>>> stageData validation Stage started <<<<<]
-[2025-04-15 14:05:34,756:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2025-04-15 14:05:34,765:INFO:common:yaml file: params.yaml loaded successfully]
-[2025-04-15 14:05:34,770:INFO:common:yaml file: schema.yaml loaded successfully]
-[2025-04-15 14:05:34,772:INFO:common:Create dirctories at: artifacts]
-[2025-04-15 14:05:34,774:INFO:common:Create dirctories at: artifacts/data_validation]
-[2025-04-15 14:05:34,819:INFO:main:>>>>>>> stage Data validation Stage Completed <<<<<
+[2025-04-16 09:32:43,616:INFO:main:>>>>>>> stageData Transformation Stage started <<<<<]
+[2025-04-16 09:32:43,616:ERROR:main:Your data scheme is not valid]
+Traceback (most recent call last):
+  File "E:\AI_projects\Data_science_Project1\src\datascience\pipeline\data_transformation_pipeline.py", line 12, in initiate_data_transformation
+    with open(Path('artifacts/data_validation/status.txt'),'r') as f:
+NameError: name 'Path' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\AI_projects\Data_science_Project1\main.py", line 35, in <module>
+    obj.initiate_data_transformation()
+  File "E:\AI_projects\Data_science_Project1\src\datascience\pipeline\data_transformation_pipeline.py", line 20, in initiate_data_transformation
+    raise Exception('Your data scheme is not valid')
+Exception: Your data scheme is not valid
+[2025-04-16 09:33:22,161:INFO:utils:NumExpr defaulting to 8 threads.]
+[2025-04-16 09:33:25,775:INFO:main:>>>>>>> stageData Ingestion Stage started <<<<<]
+[2025-04-16 09:33:25,779:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-16 09:33:25,783:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-16 09:33:25,789:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-16 09:33:25,793:INFO:common:Create dirctories at: artifacts]
+[2025-04-16 09:33:25,793:INFO:common:Create dirctories at: artifacts/data_ingestion]
+[2025-04-16 09:33:25,795:INFO:data_ingestion:File already exists]
+[2025-04-16 09:33:25,801:INFO:main:>>>>>>> stage Data Ingestion Stage Completed <<<<<
+
+x=======================x]
+[2025-04-16 09:33:25,803:INFO:main:>>>>>>> stageData validation Stage started <<<<<]
+[2025-04-16 09:33:25,809:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-04-16 09:33:25,811:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-04-16 09:33:25,815:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-04-16 09:33:25,817:INFO:common:Create dirctories at: artifacts]
+[2025-04-16 09:33:25,819:INFO:common:Create dirctories at: artifacts/data_validation]
+[2025-04-16 09:33:25,874:INFO:main:>>>>>>> stage Data validation Stage Completed <<<<<
+
+x=======================x]
+[2025-04-16 09:33:25,874:INFO:main:>>>>>>> stageData Transformation Stage started <<<<<]
+[2025-04-16 09:33:25,878:INFO:main:>>>>>>> stage Data Transformation Stage Completed <<<<<
 
 x=======================x]
